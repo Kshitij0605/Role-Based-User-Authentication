@@ -46,10 +46,15 @@ This project implements a role-based authentication system where users have diff
 | GET    | /api/users/<id>      | Get user details (Self or Admin)  |
 
 ## Technologies Used
-- Python
-- Django / Flask (Specify the framework used)
-- SQLite / PostgreSQL (Specify the database used)
-- JWT for authentication
+- Backend Framework: Flask
+- Programming Language: Python
+- Database: SQLite
+- Authentication: JWT (JSON Web Tokens)
+- Password Hashing: Flask-Bcrypt
+- Environment Management: python-dotenv
+- API Documentation: Flask-RESTful
+- Form Handling: Flask-WTF
+- Frontend: HTML, CSS (utilized within Flask templates)
 
 ## Security Measures
 - Password hashing using bcrypt or Django's built-in security features
